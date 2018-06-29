@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65783F8620E598DC002E845C /* video02.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 65783F8520E598DC002E845C /* video02.tvml */; };
+		65783F8820E5994A002E845C /* video03.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 65783F8720E5994A002E845C /* video03.tvml */; };
+		65783F8D20E5AD63002E845C /* video04.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 65783F8C20E5AD63002E845C /* video04.tvml */; };
+		925551A920D0842400874F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925551A820D0842400874F27 /* AppDelegate.swift */; };
+		925551AC20D0842800874F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925551AB20D0842800874F27 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65783F8520E598DC002E845C /* video02.tvml */ = {isa = PBXFileReference; lastKnownFileType = text; path = video02.tvml; sourceTree = "<group>"; };
+		65783F8720E5994A002E845C /* video03.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = video03.tvml; sourceTree = "<group>"; };
+		65783F8C20E5AD63002E845C /* video04.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = video04.tvml; sourceTree = "<group>"; };
+		921FFDBE20D1754E008BB129 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		921FFDC020D17609008BB129 /* video01.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video01.tvml; sourceTree = "<group>"; };
+		925551A520D0842400874F27 /* nanotvML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nanotvML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		925551A820D0842400874F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		925551AA20D0842400874F27 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		925551AB20D0842800874F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925551AD20D0842800874F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925551B720D084D600874F27 /* main.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.tvml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925551A220D0842400874F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9255519C20D0842400874F27 = {
+			isa = PBXGroup;
+			children = (
+				925551B320D0843500874F27 /* client */,
+				925551A720D0842400874F27 /* nanotvML */,
+				925551A620D0842400874F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925551A620D0842400874F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925551A520D0842400874F27 /* nanotvML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925551A720D0842400874F27 /* nanotvML */ = {
+			isa = PBXGroup;
+			children = (
+				925551A820D0842400874F27 /* AppDelegate.swift */,
+				925551AB20D0842800874F27 /* Assets.xcassets */,
+				925551AD20D0842800874F27 /* Info.plist */,
+			);
+			path = nanotvML;
+			sourceTree = "<group>";
+		};
+		925551B320D0843500874F27 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				921FFDBE20D1754E008BB129 /* img */,
+				925551B920D084EE00874F27 /* js */,
+				925551B420D0844200874F27 /* templates */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		925551B420D0844200874F27 /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				925551B720D084D600874F27 /* main.tvml */,
+				921FFDC020D17609008BB129 /* video01.tvml */,
+				65783F8520E598DC002E845C /* video02.tvml */,
+				65783F8720E5994A002E845C /* video03.tvml */,
+				65783F8C20E5AD63002E845C /* video04.tvml */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		925551B920D084EE00874F27 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				925551AA20D0842400874F27 /* application.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925551A420D0842400874F27 /* nanotvML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925551B020D0842800874F27 /* Build configuration list for PBXNativeTarget "nanotvML" */;
+			buildPhases = (
+				925551A120D0842400874F27 /* Sources */,
+				925551A220D0842400874F27 /* Frameworks */,
+				925551A320D0842400874F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanotvML;
+			productName = WWDC2018;
+			productReference = 925551A520D0842400874F27 /* nanotvML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9255519D20D0842400874F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Joaquim Pessoa Filho";
+				TargetAttributes = {
+					925551A420D0842400874F27 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 925551A020D0842400874F27 /* Build configuration list for PBXProject "nanotvML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9255519C20D0842400874F27;
+			productRefGroup = 925551A620D0842400874F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925551A420D0842400874F27 /* nanotvML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925551A320D0842400874F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65783F8820E5994A002E845C /* video03.tvml in Resources */,
+				65783F8620E598DC002E845C /* video02.tvml in Resources */,
+				65783F8D20E5AD63002E845C /* video04.tvml in Resources */,
+				925551AC20D0842800874F27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925551A120D0842400874F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925551A920D0842400874F27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		925551AE20D0842800874F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		925551AF20D0842800874F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925551B120D0842800874F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G633XVRJD;
+				INFOPLIST_FILE = WWDC2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.bryos.nanotvML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		925551B220D0842800874F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G633XVRJD;
+				INFOPLIST_FILE = WWDC2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.bryos.nanotvML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925551A020D0842400874F27 /* Build configuration list for PBXProject "nanotvML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925551AE20D0842800874F27 /* Debug */,
+				925551AF20D0842800874F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925551B020D0842800874F27 /* Build configuration list for PBXNativeTarget "nanotvML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925551B120D0842800874F27 /* Debug */,
+				925551B220D0842800874F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9255519D20D0842400874F27 /* Project object */;
+}

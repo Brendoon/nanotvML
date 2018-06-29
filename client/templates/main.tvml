@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+    <productBundleTemplate>
+        <background>
+        </background>
+        <banner>
+            <stack>
+                <title>The Train</title>
+                <row>
+                    <text>Help Kol guide the train across the bridge in time</text>
+                </row>
+                <description allowsZooming="true" moreLabel="more" action="showOverflow" title="{{title}}"></description>
+                <row>
+                    <buttonLockup onselect="playMediaExternal('https://brendoon.github.io/videos/video01.mp4', 'video')">
+                        <badge src="resource://button-preview" />
+                        <title>Play</title>
+                    </buttonLockup>
+                </row>
+            </stack>
+            <heroImg src="http://localhost:9001/img/video01.png" />
+        </banner>
+        <shelf>
+            <header>
+                <title>Você vai gostar de ver também</title>
+            </header>
+            <section>
+                <lockup onselect="getDocument('templates/video02.tvml')">
+                    <img src="http://localhost:9001/img/video02.png" width="402" height="226" />
+                    <title>The Car</title>
+                </lockup>
+                <lockup onselect="getDocument('templates/video03.tvml')">
+                    <img src="http://localhost:9001/img/video03.png" width="402" height="226" />
+                    <title>The Rocket</title>
+                </lockup>
+                <lockup onselect="getDocument('templates/video04.tvml')">
+                    <img src="http://localhost:9001/img/video04.png" width="402" height="226" />
+                    <title>The Moon</title>
+                </lockup>
+            </section>
+        </shelf>
+    </productBundleTemplate>
+</document>
